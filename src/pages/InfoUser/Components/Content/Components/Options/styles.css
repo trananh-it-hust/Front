@@ -1,0 +1,22 @@
+.options {
+  border-radius: 0.8rem;
+  border: 0.5px solid rgb(234, 230, 230);
+  margin-bottom: 0.7rem;
+  padding: 0.7rem;
+}
+.options form {
+  margin-top: 0.7rem;
+  display: flex;
+  gap: 0.7rem;
+  flex-direction: column;
+}
+.options form div {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+.options form button {
+  width: 50%;
+  margin: 0 auto;
+}

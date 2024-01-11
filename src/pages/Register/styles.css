@@ -1,0 +1,60 @@
+.register-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .logo-container {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .logo-text {
+    font-weight: bold;
+    color: #1890ff;
+  }
+  
+  .form-container {
+    width: 100%;
+  }
+  
+  .register-button {
+    margin-top: 16px;
+  }
+  
+  .register-button > button {
+    margin-right: 8px;
+  }
+  
+  .red-button {
+
+        height: 50px;
+        display: block;
+        width: 100% !important;
+        padding: 10px;
+        margin-bottom: 20px;
+        background-color: #f00;
+        color: #fff;
+        border: 2px solid #f00;
+        border-radius: 4px;
+        cursor: pointer;
+        text-align: center;
+        font-size: 16px;
+        transition: background-color 0.3s;
+      
+  }
+  
+  .red-button:hover {
+    background-color: #ff7875;
+    color: #fff;
+    border-color: #ff7875;
+  }
+
+  body {
+    font-family: 'Lexend', sans-serif; /* Apply Lexend font to the entire body */
+    }
+  

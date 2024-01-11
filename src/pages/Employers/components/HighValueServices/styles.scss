@@ -1,0 +1,145 @@
+.high-value-service {
+  background: linear-gradient(180deg, #680000 25.23%, #121212 100%);
+  padding: 120px 20px;
+
+  .container {
+    max-width: 1340px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+
+    h1 {
+      color: #fff;
+      font-size: 36px;
+      font-weight: 700;
+      text-align: center;
+      line-height: 1.5;
+    }
+  }
+
+  .btn-contact {
+    margin-top: 48px;
+
+    h3 {
+      color: #fff;
+      text-align: center;
+      line-height: 1.5;
+    }
+
+    .btn-text {
+      display: flex;
+      justify-content: center;
+
+      button {
+        color: #fff;
+        background-color: #ed1b2f;
+        border-color: #ed1b2f;
+        font-size: 16px;
+        font-weight: 600;
+        padding: 15px 32px;
+        min-width: 220px;
+        border-radius: 4px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        line-height: 1.5;
+        user-select: none;
+        border: 1px solid transparent;
+        gap: 8px;
+      }
+    }
+  }
+}
+
+.flex-box-wrapper {
+  border-radius: 16px;
+  margin-top: 48px;
+  padding: 48px 48px 52px 48px;
+  background-color: rgba(255, 255, 255);
+
+  .flex-row-reverse,
+  .flex-row {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+
+    .justify-content-center {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      background-color: rgba(255, 255, 255, 1);
+
+      img {
+        max-height: 450px;
+        max-width: 480px;
+        width: 100%;
+        vertical-align: middle;
+      }
+    }
+
+    .flex-1 {
+      flex: 1;
+      h1 {
+        font-size: 28px;
+        font-weight: 700;
+        color: #121212;
+      }
+
+      p {
+        margin-top: 16px;
+        color: #414042;
+        font-size: 16px;
+      }
+
+      .d-lg-flex {
+        margin-top: 32px;
+
+        .job-posting-content-box {
+          border-radius: 8px 8px 0px 0px;
+          background: linear-gradient(
+            180deg,
+            #fff6f6 0%,
+            rgba(255, 223, 223, 0) 100%
+          );
+          margin-right: 16px;
+          margin-bottom: 16px;
+          padding: 16px;
+          display: flex;
+
+          img {
+            vertical-align: middle;
+          }
+
+          p {
+            margin: 16px 0 0 16px;
+          }
+        }
+
+        .job-searching-content-box {
+          border-radius: 8px 8px 0px 0px;
+          background: linear-gradient(
+            180deg,
+            #fff6f6 0%,
+            rgba(255, 223, 223, 0) 100%
+          );
+          padding: 16px;
+          display: flex;
+
+          img {
+            vertical-align: middle;
+          }
+
+          p {
+            margin-left: 16px;
+            margin-top: 16px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.bold-text {
+  font-weight: 700;
+  font-size: 16px;
+}

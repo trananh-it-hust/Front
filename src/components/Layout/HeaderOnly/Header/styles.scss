@@ -1,0 +1,136 @@
+header {
+  height: 60px;
+  display: block;
+  background-color: #000;
+  z-index: 1000;
+
+  nav {
+    background: linear-gradient(269.85deg, #54151c 0%, #121212 54.89%);
+    border-bottom: 1px solid #ffffff1a;
+
+    .header-container {
+      display: flex;
+      justify-content: space-between;
+      margin: 0 35px;
+      padding: 0 30px;
+      height: 100%;
+
+      .left-side {
+        display: flex;
+        flex-wrap: inherit;
+        align-items: center;
+      }
+    }
+  }
+}
+
+header > .shrink {
+  height: 60px;
+}
+
+// nav-fix-top
+.fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+// LEFT- SIDE
+/////////////////////////
+// NAV_BRAND
+.nav-brand {
+  margin-right: 32px !important;
+  a {
+    color: #0d6efd;
+    text-decoration: none;
+    cursor: pointer;
+
+    img {
+      width: 108px;
+      aspect-ratio: auto 108 / 40;
+      height: 40px;
+      vertical-align: middle;
+    }
+  }
+}
+
+// SEARCH BAR
+.nav-search {
+  position: relative;
+  display: flex;
+  align-items: center;
+
+  input {
+    padding: 10px 30px 10px 0;
+    width: 400px;
+    font-size: 14px;
+    text-indent: 10px;
+  }
+
+  span {
+    position: absolute;
+    right: 10px; /* Adjust the right position to align the icon properly */
+    cursor: pointer;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+
+// RIGHT-SIDE
+///////////////////
+.right-side {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+
+  li {
+    white-space: no-wrap;
+    line-height: 60px;
+    list-style: none;
+
+    a {
+      font-size: 16px;
+      text-decoration: none;
+      color: #fff;
+      font-weight: 300;
+    }
+
+    .fa-regular {
+      margin-left: 10px;
+      transform: translateY(10%);
+    }
+  }
+}
+a .icon{
+  color: gray;
+  font-size: 12px;
+  font-variant: small-caps;
+}
+a .icon:hover{
+  color: white;
+}
+.login-button .icon:hover .layoutmore{
+    background-color: red;
+  }
+
+
+.relative{
+  position: relative;
+}
+.layoutmore{
+  bottom: 0;
+  background-color: gray;
+  position: absolute;
+  display: block;
+  z-index: 1000;
+  width: 200px;
+  transform: translateY(100%) translateX(-70%);
+}
+.none{
+  display: none;
+}
+.layoutmore a:hover{
+  color: red;
+}

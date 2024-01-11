@@ -1,0 +1,76 @@
+.itviec-different-container {
+  background-image: linear-gradient(
+    rgba(70, 0, 0, 0) 29.86%,
+    rgb(56, 0, 0) 100%
+  );
+  background: linear-gradient(
+    180deg,
+    rgba(255, 223, 223, 0) 29.86%,
+    #fff6f6 100%
+  );
+  padding: 120px 0 0;
+}
+
+//   TEXT-CONTENT
+.text-content {
+  text-align: center;
+  .title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.5;
+  }
+
+  .normal-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.8 !important;
+  }
+}
+
+//   CONTENT WRAPPER
+.content-wrapper {
+  background-image: url('https://itviec.com/assets/employer_landing/round-7b576a08f59ea555667c691a6bb1de728b3bd9d8c2f9b137a24976fbc3825aa9.svg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding: 88px 20px 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .m-28 {
+    margin-right: 28px !important;
+    margin-left: 28px !important;
+  }
+
+  .content-box {
+    flex: 1;
+    max-width: 428px;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 4px 20px 0px;
+    height: 180px;
+    background-color: rgb(24, 26, 27) !important;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+
+    .number-text {
+      font-size: 40px;
+      font-weight: 700;
+      color: rgb(239, 48, 66) !important;
+    }
+
+    .normal-text {
+      margin-top: 8px !important;
+      font-size: 16px;
+      font-weight: 400;
+      color: rgb(232, 230, 227);
+    }
+
+    img {
+      position: absolute !important;
+      top: -40px;
+    }
+  }
+}

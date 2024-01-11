@@ -1,0 +1,39 @@
+.contentItem {
+  position: relative;
+  border-radius: 0.8rem;
+  border: 0.5px solid rgb(234, 230, 230);
+  margin-bottom: 0.7rem;
+  padding: 0.7rem;
+}
+.editicon {
+  position: absolute;
+  z-index: 100;
+  top: 1rem;
+  right: 1rem;
+  cursor: pointer;
+}
+.green {
+  color: greenyellow;
+}
+.title {
+  font-size: 21px;
+  margin-bottom: 5px;
+}
+.info {
+  margin-left: 1rem;
+  font-size: 14px;
+  font-style: italic;
+}
+.time {
+  font-size: 16px;
+  position: absolute;
+  top: 60px;
+  right: 80px;
+}
+.description {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.editicon {
+  background-color: white;
+}

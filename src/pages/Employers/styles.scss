@@ -1,0 +1,13 @@
+main {
+  min-height: calc(100vh - 495px);
+  display: flex;
+  flex-direction: column;
+
+  .flex-grow-1 {
+    flex-grow: 1;
+
+    .employer-landing-container {
+      padding-bottom: 32px;
+    }
+  }
+}

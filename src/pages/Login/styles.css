@@ -1,0 +1,237 @@
+.login-form {
+  width: 50%;
+  height: 50%;
+  margin: 0 auto;
+}
+.parent-container {
+   display: flex;
+  justify-content: center;
+  }
+  
+  .container {
+  vertical-align: top;
+  width: 40%;
+  padding: 20px;
+  box-sizing: border-box;
+  margin: 20px;
+  }
+  
+  .logo {
+  text-align: center;
+  }
+  
+  .logo-text {
+
+  display: inline-block;
+  padding-left: 10px;
+  
+  }
+  
+  .note {
+  margin-bottom: 20px;
+  }
+  
+  .divider {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+  }
+  
+  .divider hr {
+  flex-grow: 1;
+  margin: 0;
+  border: none;
+  border-top: 1px solid #ccc; /* Set the divider color to white */
+  }
+  
+  .divider span {
+  margin: 0 10px;
+  color: #ccc;
+  font-weight: bold;
+  }
+ 
+  .email-btn {
+    height: 50px;
+    display: block;
+    width: 100% !important;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #f00;
+    color: #fff;
+    border: 2px solid #f00;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .email-btn:hover {
+    background-color: #800;
+    border: 2px solid #800;
+  }
+  .google-btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100% !important;
+      height: 50px;
+      padding: 10px;
+      margin-bottom: 20px;
+      background-color: transparent; 
+      color: #f00; 
+      border: 2px solid #f00;
+      border-radius: 4px;
+      cursor: pointer;
+      text-align: center;
+      font-size: 16px; 
+      transition: background-color 0.3s;  
+  }
+  
+  .google-btn:hover {
+  background-color: #ffcccc; /* Set a very light red background color on hover */
+  }
+  
+  .email-form input {
+  display: block;
+  width: 100%; /* Reduce the width of the input bars to 80% */
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  }
+  
+  h2 {
+  margin-bottom: 10px;
+  font-size: 20px; /* Increase the font size of the heading */
+  }
+  
+  .bullet-points {
+  list-style-type: none;
+  padding-left: 20px;
+  }
+  
+  .bullet-points li::before {
+  content: "✔";
+  margin-right: 5px;
+  font-size: 18px; 
+  color: #0ab305; 
+  }
+  
+  .logo-icon img {
+  height: 30px; 
+  width: auto;
+  margin-right: 5px; 
+  }
+  
+  .email-btn,
+  .email-form input {
+  box-sizing: border-box;
+  width: 100%;
+  }
+  
+  body {
+  font-family: 'Lexend', sans-serif; /* Apply Lexend font to the entire body */
+  }
+  
+  /* Rest of the CSS code remains the same */
+  
+  .email-btn,
+  .google-btn {
+  font-family: inherit; /* Inherit the font family from the body */
+  }
+  
+  .show-password,
+  .forgot-password,
+  .signup-link a {
+  font-family: inherit; /* Inherit the font family from the body */
+  }
+  
+  .signup-link{
+  text-align: center;
+  }
+  
+  .password-container {
+  position: relative;
+  margin-top: 32px;
+  }
+  
+  .password-container input[type="password"] {
+  padding-right: 40px;
+  }
+  
+  .forgot-password {
+  position: absolute;
+  right: 0;
+  top: -26px;
+  font-size: 14px;
+  color: #888;
+  text-decoration: none;
+  }
+  
+  .show-password-toggle {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  }
+  
+  .show-password-icon {
+  width: 20px;
+  height: 20px;
+  }
+  
+  .email-form input[type="email"] {
+  margin-bottom: 10px;
+  }
+  
+  .email-form input[type="email"]::-webkit-input-placeholder {
+  font-family: 'Lexend', sans-serif; /* Apply Lexend font to the input placeholder */
+  }
+  
+  .email-form input[type="email"]::-moz-placeholder {
+  font-family: 'Lexend', sans-serif; /* Apply Lexend font to the input placeholder for Firefox */
+  }
+  
+  .email-form input[type="email"]:-ms-input-placeholder {
+  font-family: 'Lexend', sans-serif; /* Apply Lexend font to the input placeholder for Microsoft Edge */
+  }
+  
+  .email-form input[type="email"]::placeholder {
+  font-family: 'Lexend', sans-serif; /* Apply Lexend font to the input placeholder */
+  }
+
+  .parent-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+  }
+  
+  .first-container {
+    width: 50%;
+    padding: 20px;
+
+  }
+  
+  .second-container {
+    width: 50%;
+    padding: 20px;
+
+  }
+  
+  /* Add additional styles as needed */
+
+
+  .email-btn:hover {
+    background-color: #800;
+    border-color: #800;
+  }
+
+  .logo-size {
+    
+    width: 120px;
+  }
+
+  

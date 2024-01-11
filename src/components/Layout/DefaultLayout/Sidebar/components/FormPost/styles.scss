@@ -1,0 +1,42 @@
+.input-container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.popup-containter {
+  width: 32%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 80px;
+  position: fixed;
+  padding: 10px;
+  z-index: 10;
+  background-color: #fff;
+  display: flex;
+  box-shadow: 0 12px 28px 0 rgba(0, 0, 0, 0.2), 0 2px 4px 0 rgba(0, 0, 0, 0.1),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.5);
+
+  form {
+    .title,
+    .userName,
+    .rangeSalary,
+    .location,
+    .workPlace,
+    .vacancies {
+      display: flex;
+
+      label {
+        width: 100%;
+
+        input {
+          height: fit-content;
+          width: 98%;
+          margin: 5px 0;
+          padding: 5px 0;
+        }
+      }
+    }
+  }
+}

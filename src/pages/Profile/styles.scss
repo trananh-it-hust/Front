@@ -1,0 +1,107 @@
+.profile-header {
+  padding: 32px 30px;
+  background: linear-gradient(269.85deg, #54151c 0%, #121212 54.89%);
+  color: rgba(255, 255, 255);
+  opacity: 1;
+  display: flex;
+  justify-content: space-between;
+
+  .profile-header-content {
+    max-width: 1340px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+
+    .profile-header-row {
+      display: flex;
+      flex-direction: row;
+
+      .profile-avatar {
+        width: 160px;
+        height: 160px;
+        background-color: #fff;
+        border: 1px solid #dedede;
+        border-radius: 4px;
+        margin-right: 24px;
+        display: flex;
+        align-items: center;
+
+        .profile-logo {
+          opacity: 1;
+          transition: opacity 200ms;
+          object-fit: contain;
+          max-width: 100% !important;
+          vertical-align: middle;
+        }
+      }
+    }
+  }
+
+  .proflie-header-details {
+    .profile-title {
+      padding-bottom: 8px;
+    }
+  }
+}
+
+.profile-location {
+  display: flex;
+  gap: 10px;
+}
+
+.profile-header-follow {
+  margin-top: 24px;
+  background-color: #fff;
+  color: red;
+}
+
+.jd-header {
+  display: block;
+}
+
+.home-jd,
+.home-exp-needed,
+.home-will-love {
+  margin-top: 30px;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.popup-containter {
+  width: 32%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 80px;
+  position: fixed;
+  padding: 10px;
+  z-index: 10;
+  background-color: #fff;
+  display: flex;
+  box-shadow: 0 12px 28px 0 rgba(0, 0, 0, 0.2), 0 2px 4px 0 rgba(0, 0, 0, 0.1),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.5);
+
+  form {
+    .jobDescription,
+    .Exp,
+    .rangeSalary,
+    .whyLoveWorkHere {
+      display: flex;
+
+      label {
+        width: 100%;
+
+        input {
+          height: fit-content;
+          width: 98%;
+          margin: 5px 0;
+          padding: 5px 0;
+        }
+      }
+    }
+  }
+}
