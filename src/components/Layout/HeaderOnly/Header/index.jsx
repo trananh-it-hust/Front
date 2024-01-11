@@ -20,11 +20,14 @@ const Header = () => {
         navigate("/login");
       } else {
         try {
-          const response = await axios.get("http://localhost:3001/token", {
-            headers: {
-              Authorization: `Bearer ${token}`,
-            },
-          });
+          const response = await axios.get(
+            "https://backendsever-61gd.onrender.com/token",
+            {
+              headers: {
+                Authorization: `Bearer ${token}`,
+              },
+            }
+          );
           await login(response.data.data, response.data.token);
           console.log(user);
         } catch (error) {
